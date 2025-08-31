@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Cargo Calc — Автоматизация таможенных складов</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header-bar">
+                <div class="header_logo">
+                    <img src="/images/Frame 83.png" alt="img">
+                    <a class="brand" href="#">Cargo Calc</a>
+                </div>
+                <nav class="header-center">
+                    <a href="#home" class="nav-link">Главная</a>
+                    <a href="#about" class="nav-link">О нас</a>
+                    <a href="#features" class="nav-link">Функционал</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
+                </nav>
+                <div>
+                    <a href="#" class="btn btnDemo">Получить демо</a>
+                    <input type="checkbox" name="nav-toggle" id="nav-toggle">
+                    <label for="nav-toggle" class="burger">
+                        <div class="plate plate4" onclick="this.classList.toggle('active')">
+                            <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                                <path class="line line1" d="M 50,35 H 30" />
+                                <path class="line line2" d="M 50,35 H 70" />
+                                <path class="line line3" d="M 50,50 H 30" />
+                                <path class="line line4" d="M 50,50 H 70" />
+                                <path class="line line5" d="M 50,65 H 30" />
+                                <path class="line line6" d="M 50,65 H 70" />
+                            </svg>
+                            <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                                <path class="line" d="M 34,32 L 66,68" />
+                                <path class="line" d="M 66,32 L 34,68" />
+                            </svg>
+                        </div>
+                    </label>
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="#home">Главная</a></li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                            <li><a href="#features">Функционал</a></li>
+                            <li><a href="benifist">Преимущества проет</a></li>
+                            <li><a href="#customer">Отзывы клиентов</a></li>
+                            <li><a href="#demo">Демо</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section id="home">
+            <div class="container home">
+                <div class="home-content">
+                    <div class="content-title"></div>
+                    <h1>Автоматизация таможенных складов</h1>
+                    <p>Мы разработали удобное и мощное решение для автоматизации таможенных складов. Оно помогает
+                        упростить
+                        учет
+                        грузов, управлять тарифами и вести прозрачный расчет услуг.</p>
+                    <button class=""><a href="#">Попробовать сейчас</a></button>
+                </div>
+                <div class="home-media">
+                    <div class="home_img">
+                        <img src="/images/35be8be132c04d689141d79ccf0a2d7bfb3ffdca (1).jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="#about">
+            <div class="container about">
+                <h1 class="title">О нас</h1>
+                <div class="about_card">
+                    <div class="card">
+                        <img src="/images/Frame 90 (1).png" alt="">
+                        <p>Мы — команда IT-специалистов с опытом в разработке бизнес-решений для логистики и складской
+                            отрасли.</p>
+                        <span></span>
+                    </div>
+                    <div class="card">
+                        <img src="/images/cube.png" alt="">
+                        <p>Наша цель — упростить и ускорить работу таможенных складов с помощью современных технологий.
+                            Мы
+                            понимаем реальные задачи бизнеса и предлагаем удобные инструменты, которые экономят время,
+                            снижают ошибки и повышают эффективность.</p>
+                        <span></span>
+                    </div>
+                    <div class="card">
+                        <img src="/images/screen-share (1).png" alt="">
+                        <p>Наше приложение уже внедряется на действующих складах и успешно помогает автоматизировать
+                            повседневные процессы — от расчета тарифов до учёта заявок.</p>
+                        <span></span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="container features">
+                <h1 class="title">Что умеет наше приложение?</h1>
+                <div class="features_card">
+                    <div class="card">
+                        <div class="features_title">
+                            <img src="/images/users-svgrepo-com 2.png" alt="img">
+                            <h2>Управление пользователями</h2>
+                            <img src="/images/Frame 75.png" alt="img">
+                        </div>
+                        <p>— Гибкая система доступа для сотрудников с разграничением прав.</p>
+                    </div>
+                    <div class="card">
+                        <div class="features_title">
+                            <img src="/images/add-circle-svgrepo-com.png" alt="img">
+                            <h2>Добавление услуг, товаров и тарифов</h2>
+                            <img src="/images/Frame 75.png" alt="img">
+                        </div>
+                        <p>— Возможность формировать собственные тарифные планы, настраивать цены и учитывать специфику
+                            разных типов грузов. </p>
+                    </div>
+                    <div class="card">
+                        <div class="features_title">
+                            <img src="/images/Vector.png" alt="img">
+                            <h2>Работа с организациями</h2>
+                            <img src="/images/Frame 75.png" alt="img">
+                        </div>
+                        <p>— Добавление и управление клиентами, партнерами и поставщиками в удобном интерфейсе. </p>
+                    </div>
+                    <div class="card">
+                        <div class="features_title">
+                            <img src="/images/diagram-svgrepo-com.png" alt="images">
+                            <h2>Дашборд и аналитика</h2>
+                            <img src="/images/Frame 75.png" alt="img">
+                        </div>
+                        <p>— Визуализация ключевых показателей: количество заявок, доходность, загруженность склада и
+                            другие
+                            важные метрики.</p>
+                    </div>
+                    <div class="card">
+                        <div class="features_title">
+                            <img src="/images/archive-svgrepo-com.png" alt="img">
+                            <h2>Работа с заявками и архив заявок</h2>
+                            <img src="/images/Frame 75.png" alt="img">
+                        </div>
+                        <p>— Удобный учет всех обработанных и текущих заявок, поиск и фильтрация по ключевым параметрам.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="features_title">
+                            <img src="/images/export-svgrepo-com.png" alt="img">
+                            <h2>Экспорт данных</h2>
+                            <img src="/images/Frame 75.png" alt="img">
+                        </div>
+                        <p>— Выгрузка отчетов в Excel для удобной работы с финансами и аналитикой. </p>
+                        <p>— Формирование актов с возможностью экспорта в Excel, что облегчает...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="benifist">
+            <div class="container benifist">
+                <h1 class="title">Как это помогает бизнесу?</h1>
+                <div class="benifist_card">
+                    <div class="card">
+                        <img src="/images/calender-dynamic-color1сс.png" alt="img">
+                        <p>Исключает рутинные ошибки при расчете тарифов</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/forward-dynamic-color2сс.png" alt="img">
+                        <p>Ускоряет обработку заявок и учет грузов</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/1ed280c6096efbb1e8132dfc65ebc6266937e03f.png" alt="img">
+                        <p>Автоматизирует документооборот и сокращает время на отчетность
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/88cac6482492872f61ea9adcc93e3dd46d5998e5.png" alt="img">
+                        <p>Делает финансовый учет более прозрачным</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="demo">
+            <div class="container demo">
+                <h1 class="title">Опробовать демо</h1>
+                <div class="demo-card">
+                    <div class="demo-info">
+                        <h1>Попробуйте сами — это удобно!</h1>
+                        <p>Никаких рисков: просто оставьте заявку и получите доступ к демо-версии.</p>
+                        <p>Оцените, как легко автоматизировать работу склада.</p>
+                        <div>
+                            <img src="/images/Frame 117 (1).png" alt="img">
+                            <img src="/images/Frame 118.png" alt="img">
+                        </div>
+                    </div>
+                    <form class="form card" action="#" method="post">
+                        <div class="form-row one">
+                            <div>
+                                <label for="fname">Имя</label>
+                                <input id="fname" name="fname" type="text" placeholder="Введите имя" required />
+                            </div>
+                            <div>
+                                <label for="lname">Фамилия</label>
+                                <input id="lname" name="lname" type="text" placeholder="Введите фамилию" required />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div>
+                                <label for="company">Название компании</label>
+                                <input name="email" id="company" type="text" placeholder="Введите название компании"
+                                    required />
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" placeholder="Введите почту" required />
+                            </div>
+                            <div>
+                                <label for="phone">Телефон</label>
+                                <input id="phone" name="phone" type="tel" placeholder="+998 - xxx - xx - xx" required />
+                            </div>
+                        </div>
+                        <button class="btn" type="submit">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="customer">
+            <div class="container  ">
+                <h1 class="title">
+                    Что говорят о нас?
+                </h1>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/image 2.png" alt="img">
+                                <p>
+                                    Раньше мы вели учёт вручную, и на обработку одной заявки уходило до 30 минут. С
+                                    новым
+                                    приложением всё автоматизировано — время сократилось в 3 раза, ошибки исчезли.
+                                    Отчёты
+                                    формируются в один клик, а дашборд помогает контролировать склад в реальном времени.
+                                    Отличное
+                                    решение для нашей сферы!
+                                </p>
+                                <div class="card_row">
+                                    <span>
+                                        <img src="/images/c74eb4fa83f1606fa21a1ca312243f9284535627.png" alt="img">
+                                    </span>
+                                    <div>
+                                        <h2>Алексей Петров</h2>
+                                        <p>Руководитель BLG Logistics</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/image 2.png" alt="img">
+                                <p>
+                                    Раньше мы вели учёт вручную, и на обработку одной заявки уходило до 30 минут. С
+                                    новым
+                                    приложением всё автоматизировано — время сократилось в 3 раза, ошибки исчезли.
+                                    Отчёты
+                                    формируются в один клик, а дашборд помогает контролировать склад в реальном времени.
+                                    Отличное
+                                    решение для нашей сферы!
+                                </p>
+                                <div class="card_row">
+                                    <span>
+                                        <img src="/images/c74eb4fa83f1606fa21a1ca312243f9284535627.png" alt="img">
+                                    </span>
+                                    <div>
+                                        <h2>Алексей Петров</h2>
+                                        <p>Руководитель BLG Logistics</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/image 2.png" alt="img">
+                                <p>
+                                    Раньше мы вели учёт вручную, и на обработку одной заявки уходило до 30 минут. С
+                                    новым
+                                    приложением всё автоматизировано — время сократилось в 3 раза, ошибки исчезли.
+                                    Отчёты
+                                    формируются в один клик, а дашборд помогает контролировать склад в реальном времени.
+                                    Отличное
+                                    решение для нашей сферы!
+                                </p>
+                                <div class="card_row">
+                                    <span>
+                                        <img src="/images/c74eb4fa83f1606fa21a1ca312243f9284535627.png" alt="img">
+                                    </span>
+                                    <div>
+                                        <h2>Алексей Петров</h2>
+                                        <p>Руководитель BLG Logistics</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/image 2.png" alt="img">
+                                <p>
+                                    Раньше мы вели учёт вручную, и на обработку одной заявки уходило до 30 минут. С
+                                    новым
+                                    приложением всё автоматизировано — время сократилось в 3 раза, ошибки исчезли.
+                                    Отчёты
+                                    формируются в один клик, а дашборд помогает контролировать склад в реальном времени.
+                                    Отличное
+                                    решение для нашей сферы!
+                                </p>
+                                <div class="card_row">
+                                    <span>
+                                        <img src="/images/c74eb4fa83f1606fa21a1ca312243f9284535627.png" alt="img">
+                                    </span>
+                                    <div>
+                                        <h2>Алексей Петров</h2>
+                                        <p>Руководитель BLG Logistics</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/image 2.png" alt="img">
+                                <p>
+                                    Раньше мы вели учёт вручную, и на обработку одной заявки уходило до 30 минут. С
+                                    новым
+                                    приложением всё автоматизировано — время сократилось в 3 раза, ошибки исчезли.
+                                    Отчёты
+                                    формируются в один клик, а дашборд помогает контролировать склад в реальном времени.
+                                    Отличное
+                                    решение для нашей сферы!
+                                </p>
+                                <div class="card_row">
+                                    <span>
+                                        <img src="/images/c74eb4fa83f1606fa21a1ca312243f9284535627.png" alt="img">
+                                    </span>
+                                    <div>
+                                        <h2>Алексей Петров</h2>
+                                        <p>Руководитель BLG Logistics</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/image 2.png" alt="img">
+                                <p>
+                                    Раньше мы вели учёт вручную, и на обработку одной заявки уходило до 30 минут. С
+                                    новым
+                                    приложением всё автоматизировано — время сократилось в 3 раза, ошибки исчезли.
+                                    Отчёты
+                                    формируются в один клик, а дашборд помогает контролировать склад в реальном времени.
+                                    Отличное
+                                    решение для нашей сферы!
+                                </p>
+                                <div class="card_row">
+                                    <span>
+                                        <img src="/images/c74eb4fa83f1606fa21a1ca312243f9284535627.png" alt="img">
+                                    </span>
+                                    <div>
+                                        <h2>Алексей Петров</h2>
+                                        <p>Руководитель BLG Logistics</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/image 2.png" alt="img">
+                                <p>
+                                    Раньше мы вели учёт вручную, и на обработку одной заявки уходило до 30 минут. С
+                                    новым
+                                    приложением всё автоматизировано — время сократилось в 3 раза, ошибки исчезли.
+                                    Отчёты
+                                    формируются в один клик, а дашборд помогает контролировать склад в реальном времени.
+                                    Отличное
+                                    решение для нашей сферы!
+                                </p>
+                                <div class="card_row">
+                                    <span>
+                                        <img src="/images/c74eb4fa83f1606fa21a1ca312243f9284535627.png" alt="img">
+                                    </span>
+                                    <div>
+                                        <h2>Алексей Петров</h2>
+                                        <p>Руководитель BLG Logistics</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/image 2.png" alt="img">
+                                <p>
+                                    Раньше мы вели учёт вручную, и на обработку одной заявки уходило до 30 минут. С
+                                    новым
+                                    приложением всё автоматизировано — время сократилось в 3 раза, ошибки исчезли.
+                                    Отчёты
+                                    формируются в один клик, а дашборд помогает контролировать склад в реальном времени.
+                                    Отличное
+                                    решение для нашей сферы!
+                                </p>
+                                <div class="card_row">
+                                    <span>
+                                        <img src="/images/c74eb4fa83f1606fa21a1ca312243f9284535627.png" alt="img">
+                                    </span>
+                                    <div>
+                                        <h2>Алексей Петров</h2>
+                                        <p>Руководитель BLG Logistics</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/images/image 2.png" alt="img">
+                                <p>
+                                    Раньше мы вели учёт вручную, и на обработку одной заявки уходило до 30 минут. С
+                                    новым
+                                    приложением всё автоматизировано — время сократилось в 3 раза, ошибки исчезли.
+                                    Отчёты
+                                    формируются в один клик, а дашборд помогает контролировать склад в реальном времени.
+                                    Отличное
+                                    решение для нашей сферы!
+                                </p>
+                                <div class="card_row">
+                                    <span>
+                                        <img src="/images/c74eb4fa83f1606fa21a1ca312243f9284535627.png" alt="img">
+                                    </span>
+                                    <div>
+                                        <h2>Алексей Петров</h2>
+                                        <p>Руководитель BLG Logistics</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper_row">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="container contacts">
+                <h1 class="title">Контакты</h1>
+                <div class="card">
+                    <div class="contacts_text">
+                        <h1>Есть вопросы или хотите обсудить внедрение?</h1>
+                        <h2>Свяжитесь с нами любым удобным способом:</h2>
+                    </div>
+                    <div class="contacts_info">
+                        <div>
+                            <img src="/images/Message 36.png" alt="img"> <span>Email: </span><a
+                                href="#">company@mail.com</a>
+                        </div>
+                        <div>
+                            <img src="/images/Calling 1.png" alt="img"> <span>Телефон: </span><a href="#">+998 00 000
+                                00 00</a>
+                        </div>
+                        <div>
+                            <img src="/images/Discovery 2.png" alt="img"> <span>Наш сайт: </span><a
+                                href="#">www.site.com</a>
+                        </div>
+                    </div>
+                    <div class="contacts_icon">
+                        <span>
+                            <img src="/images/Frame 135.png" alt="img">
+                        </span>
+                        <span>
+                            <img src="/images/Frame 134 (1).png" alt="img">
+                        </span>
+                        <span>
+                            <img src="/images/Frame 133.png" alt="img">
+                        </span>
+                    </div>
+                    <img src="/images/_.png" alt="img" class="image">
+                    <img src="/images/_ (2).png" alt="img" class="image1">
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container footer_block">
+                <div class="footer_info">
+                    <div>
+                        <h1>Отдел продаж</h1>
+                        <p>+998 00 000 00 00</p>
+                        <p><a href="#">support@mail.com</a></p>
+                    </div>
+                    <div><img src="/images/Frame 148.png" alt=""></div>
+                </div>
+                <div class="footer_row">
+                    <p>© 2025 Cargo Calc. Все права защищены.</p>
+                    <h1>© SOFTIUM 2025</h1>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            keyboard: {
+                enabled: true,
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    slidesPerGroup: 3,
+                }
+            }
+
+        });
+    </script>
+</body>
+
+</html>
