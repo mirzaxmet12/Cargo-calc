@@ -129,7 +129,7 @@ body {
   top: 100px;
   width: 100%;
   height: 100vh;
-  right: -140%;
+  right: -1000%;
 }
 .header-bar .nav li {
   position: relative;
