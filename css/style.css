@@ -441,6 +441,12 @@ section {
   color: #0954C5;
   color: #0954C5;
 }
+.contacts_info div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
 .contacts_info img {
   width: 20px;
   height: 20px;
@@ -449,6 +455,7 @@ section {
 .contacts_info a {
   font-weight: 500;
   color: #0954C5;
+  margin-left: 5px;
 }
 .contacts_icon {
   padding-top: 25px;
@@ -759,6 +766,9 @@ section {
     width: 24px;
     height: 24px;
     margin-right: 15px;
+  }
+  .contacts_info div {
+    justify-content: start;
   }
   .contacts_icon {
     position: absolute;

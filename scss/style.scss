@@ -177,7 +177,7 @@ body {
       li {
         position: relative;
         list-style: none;
-        border-bottom:1px solid gray;
+        border-bottom: 1px solid gray;
 
         a {
           display: inline-block;
@@ -189,7 +189,7 @@ body {
 
         }
 
-       
+
       }
     }
 
@@ -559,6 +559,13 @@ section {
 
     color: $blue;
 
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10px;
+    }
+
     img {
       width: 20px;
       height: 20px;
@@ -568,6 +575,7 @@ section {
     a {
       font-weight: 500;
       color: $blue;
+      margin-left: 5px;
     }
   }
 
@@ -971,6 +979,9 @@ section {
         margin-right: 15px;
       }
 
+      div {
+        justify-content: start;
+      }
     }
 
     &_icon {
