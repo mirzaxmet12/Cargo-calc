@@ -65,6 +65,16 @@ body {
 
     .header-center {
       display: none;
+      a{
+        &:hover {
+          color: $textColor;
+        }
+    
+        &:active,
+        &:focus {
+          color: $textColor;
+        }
+      }
     }
 
     .btnDemo {
@@ -186,7 +196,14 @@ body {
           font-size: 16px;
           padding: 13px 0;
           color: $gray;
-
+          &:hover {
+            color: $textColor;
+          }
+      
+          &:active,
+          &:focus {
+            color: $textColor;
+          }
         }
 
 

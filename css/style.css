@@ -48,6 +48,12 @@ body {
 .header-bar .header-center {
   display: none;
 }
+.header-bar .header-center a:hover {
+  color: #12233D;
+}
+.header-bar .header-center a:active, .header-bar .header-center a:focus {
+  color: #12233D;
+}
 .header-bar .btnDemo {
   font-family: Montserrat;
   font-weight: 700;
@@ -143,6 +149,12 @@ body {
   font-size: 16px;
   padding: 13px 0;
   color: #A1A1A1;
+}
+.header-bar .nav li a:hover {
+  color: #12233D;
+}
+.header-bar .nav li a:active, .header-bar .nav li a:focus {
+  color: #12233D;
 }
 .header-bar #nav-toggle:checked ~ .nav {
   right: 0%;
